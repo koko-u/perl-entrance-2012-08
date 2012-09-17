@@ -1,0 +1,7 @@
+@@ index.html.ep
+<html>
+<head><title><%= $title %></title></head>
+<body style='padding: 30px;'>
+<%= $string %>
+</body>
+</html>

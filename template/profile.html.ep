@@ -1,0 +1,8 @@
+@@ profile.html.ep
+<html>
+<head><title><%= $name %>のプロフィール</title></head>
+<body style='padding: 30px;'>
+私の名前は<%= $name %>です.<br>
+趣味は<%= $hobby %>で, 好きなプログラミング言語は<%= $language %>です.
+</body>
+</html>
