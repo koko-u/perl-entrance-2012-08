@@ -1,0 +1,4 @@
+apple:iphone
+samsung:galaxy
+sony:xperia
+fujitsu:arrows
