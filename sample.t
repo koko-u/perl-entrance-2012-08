@@ -1,8 +1,8 @@
 use Test::More;
 
-require 'sample.pl';
+require_ok( 'sample.pl' );
 
-ok( &pow(2, 3) == 8, '&pow(2, 3) = 8');
+is( &pow(2, 3) , 8, '&pow(2, 3) is 8');
 
 done_testing;
 
