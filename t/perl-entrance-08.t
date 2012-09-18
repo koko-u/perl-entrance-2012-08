@@ -1,6 +1,6 @@
 use Test::More;
 
-require 'perl-entrance-08.pl';
+require_ok( 'perl-entrance-08.pl' );
 
 # &sum関数のテスト
 ok( &sum(1, 1) == 1 + 1, '&sum(1, 1) = 2');

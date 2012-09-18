@@ -6,12 +6,11 @@ get '/' => sub {
 
 	$self->stash(name => '');
 	$self->render();
-};
+} => 'index';
 
-$app->start;
+app->start;
 
 __DATA__
-
 @@ index.html.ep
 <html>
 <head><title><%= $name %>'s website</title></head>
