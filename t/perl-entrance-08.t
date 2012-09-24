@@ -35,14 +35,14 @@ my $result_ref = ['perl is good!', 'ruby is good!', 'python is good!'];
 is_deeply( &add_str($array_ref, ' is good!'), $result_ref, q{&add_str($array_ref, 'is good!') = $result_ref});
 
 # txt2hashのテスト
-my $result_ref = {
+my $maker_product = {
 	apple   => 'iphone',
 	samsung => 'galaxy',
 	sony    => 'xperia',
 	fujitsu => 'arrows',
 };
 
-is_deeply( &text2hash('data.txt'), $result_ref, q{&text2hash('data.txt') = $result_ref});
+is_deeply( &text2hash('data.txt'), $maker_product, q{&text2hash('data.txt') = $maker_product});
 
 done_testing;
 
